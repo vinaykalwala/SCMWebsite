@@ -1,0 +1,134 @@
+  .services {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .services-header {
+    margin-bottom: 40px;
+  }
+    
+  .description {
+    font-size: 1.2rem;
+    color: #666;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-container {
+    font-size: 3rem;
+    color: #02026e;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #02026e;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+    text-align:left;
+  }
+
+  .company-container {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+  }
+
+  .company-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .company-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+  }
+
+  .company-logo {
+    max-width: 100px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .services-company-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+  }
+  .company-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .company-logo {
+      max-width: 60px;
+      max-height: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .service-card {
+      max-width: 100%;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+
+    .company-logo {
+      max-width: 80px;
+      max-height: 50px;
+    }
+  
+  }
+
+  

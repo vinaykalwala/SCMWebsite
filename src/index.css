@@ -1,0 +1,69 @@
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .company-name {
+    font-family: 'Times New Roman', 'Georgia';
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .banner img {
+    width: 100%;
+    display: block;
+    height: 420px;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.292);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #02026e;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  
+  .banner-content p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+  }
+  .title {
+    font-size: 1.8rem;
+    text-align: center;
+    background: linear-gradient(90deg, #0400fe, #0400fe, #ff0404, #f50000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-animate 3s infinite alternate;
+    margin-bottom: 15px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  @media (max-width:600px) {  
+      .container {
+        height: 100%;
+      }
+  }
