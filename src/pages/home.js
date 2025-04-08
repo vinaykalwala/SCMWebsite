@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/home.css"
 import { Link } from 'react-router-dom'
 import Banner from '../assets/banner_img.jpg'
-import Whoweare from '../assets/who_we_are.jpeg'
+import Whoweare from '../assets/who_we_are.jpg'
 import CorporateLaw from '../assets/corporate_law.jpg'
 import FamilyLaw from '../assets/familylaw.png'
 import CriminalLaw from '../assets/criminal-lawyer.jpg'
