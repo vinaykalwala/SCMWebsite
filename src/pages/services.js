@@ -5,11 +5,11 @@ import { FaBriefcase, FaGavel, FaLandmark, FaUsers, FaShieldAlt } from "react-ic
 
 
 import Adanilogo from '../assets/companylogos/adani-hfl.png';
-import Aditybirlahfl from '../assets/companylogos/Aditya-birla-hfl.webp';
+import Aditybirlahfl from '../assets/companylogos/Aditya-birla-hfl.jpg';
 import Altumcredo from '../assets/companylogos/altum-credo.jpg';
 import Avomhfl from '../assets/companylogos/avom-hfl.png';
 import Badradri from '../assets/companylogos/badradri-bank.png';
-import Bajaj from '../assets/companylogos/bajaj.webp';
+import Bajaj from '../assets/companylogos/bajaj.jpg';
 import Canfinhome from '../assets/companylogos/can-fin-homes.ltd.jpg';
 import Canrabank from '../assets/companylogos/canara-bank.png';
 import Capitalindia from '../assets/companylogos/capital-india-hfl.jpg';
@@ -28,7 +28,7 @@ import Hiranandanifinancial from '../assets/companylogos/hiranandani financial-s
 import HeroHousingFinance from '../assets/companylogos/hero-housing-finance.png';
 import Homefirst from '../assets/companylogos/home-first.jpg';
 import Icicibank from '../assets/companylogos/icici-bank.jpg';
-import Icicihfc from '../assets/companylogos/icici-hfc.webp';
+import Icicihfc from '../assets/companylogos/icici-hfc.jpg';
 import IDFCfirstbank from '../assets/companylogos/IDFC_First_Bank_logo.jpg';
 import Incredfinance from '../assets/companylogos/incred-finance.jpg';
 import Indiabullshfl from '../assets/companylogos/indiabulls-hfl.png';
@@ -40,14 +40,14 @@ import Mahendra from '../assets/companylogos/mahendra-hfl.png';
 import Muthootfinance from '../assets/companylogos/muthoot-finance.jpg';
 import Nidohfl from '../assets/companylogos/nido-hfl.png';
 import Nivara from '../assets/companylogos/nivara.jpg';
-import Northernarchfl from '../assets/companylogos/northern-arc-hfl.webp';
+import Northernarchfl from '../assets/companylogos/northern-arc-hfl.jpg';
 import Piramalhfl from '../assets/companylogos/piramal-hfl.jpg';
 import Pnbhfl from '../assets/companylogos/pnb-hfl.png';
 import Prayaancapital from '../assets/companylogos/prayaan-capital.png';
 import Punjabbank from '../assets/companylogos/punjob-bank.jpg';
 import RBLbank from '../assets/companylogos/rbl-bank.png';
 import SBFChfl from '../assets/companylogos/sbfc-hfl.jpg';
-import Shriramhfl from '../assets/companylogos/shriram-hfl.webp';
+import Shriramhfl from '../assets/companylogos/shriram-hfl.jpg';
 import Shubham from '../assets/companylogos/shubham.jpg';
 import Smfg from '../assets/companylogos/smfg.jpg';
 import Sundharam from '../assets/companylogos/sundharam.png';
