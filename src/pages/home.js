@@ -59,6 +59,7 @@ import Shriramhfl from '../assets/companylogos/shriram-hfl.jpg'
 import Shubham from '../assets/companylogos/shubham.jpg'
 import Smfg from '../assets/companylogos/smfg.jpg'
 import Sundharam from '../assets/companylogos/sundharam.png'
+import TruhomeFinance from '../assets/companylogos/Truhomefinance.png'
 import Tatahfl from '../assets/companylogos/tata-hfl.jpg'
 import Ummeedhfl from '../assets/companylogos/ummeed-hfl.png'
 import Wonderhfl from '../assets/companylogos/wonder-hfl.png'
@@ -131,7 +132,7 @@ const Home = () => {
             <img src={RealEstateLaw} alt="Real Estate Law" />
             <h3>Real Estate Law</h3>
             <p>Assisting with property transactions and disputes.</p>
-          </div>
+          </div>  
           <div className="card">
             <img src={IntellectualPropertyLaw} alt="Intellectual Property Law" />
             <h3>Intellectual Property Law</h3>
@@ -209,6 +210,7 @@ const Home = () => {
             <img src={Cholahfl} alt="Chola HFL" />
             <img src={Shriramhfl} alt="Shriram HFL" />
             <img src={Adanilogo} alt="Adani HFL" />
+            <img src={TruhomeFinance} alt="Truhome Finance" />
             <img src={Incredfinance} alt="Incred Finance" />
             <img src={Aditybirlahfl} alt="Aditya Birla HFL" />
             <img src={Altumcredo} alt="Altum-Credo" />

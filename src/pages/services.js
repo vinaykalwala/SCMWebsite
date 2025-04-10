@@ -60,6 +60,7 @@ import AdharHouse from '../assets/companylogos/Adhar-House.png';
 import Altum from '../assets/companylogos/Altum.png';
 import PNBHomeFinane from '../assets/companylogos/PNB-Home-Finance.png'
 import Tyger from '../assets/companylogos/Tyger.png'
+import TruhomeFinance from '../assets/companylogos/Truhomefinance.png'
 
 const Services = () => {
   const serviceData = [
@@ -232,7 +233,8 @@ const Services = () => {
     { name: "Adhar House", logo: AdharHouse },
     { name: "Tyger", logo: Tyger },
     { name: "Altum", logo: Altum },
-    { name: "PNB Home Finane", logo: PNBHomeFinane }
+    { name: "PNB Home Finane", logo: PNBHomeFinane },
+    { name: "Truhome Finane", logo: TruhomeFinance }
   ];
 
   return (
