@@ -77,8 +77,8 @@
     color: green;
     font-weight: bold;
   }
-  a{
-    color: #fff;
+  .contact-info a{
+    color: #444;
   }
   /* Responsive Design */
   @media (max-width: 768px) {
