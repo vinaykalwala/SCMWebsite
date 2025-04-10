@@ -66,7 +66,7 @@ import Yesbank from '../assets/companylogos/yes_bank.png'
 import Indostar from '../assets/companylogos/indostar.png'
 import AdharHouse from '../assets/companylogos/Adhar-House.png'
 import Altum from '../assets/companylogos/Altum.png'
-import PNBHomeFinane from '../assets/companylogos/PNB-Home-Finance.png'
+// import PNBHomeFinane from '../assets/companylogos/PNB-Home-Finance.png'
 import Tyger from '../assets/companylogos/Tyger.png'
 
 const Home = () => {
@@ -146,17 +146,94 @@ const Home = () => {
         <h2 className="title">Our Clients</h2>
         <div className="slider">
           <div className="slider-track">
-            <img src={Adanilogo} alt="Adani HFL logo" />
+            <img src={Dcbbank} alt="Dcb Bank" />
+            <img src={Centralbank} alt="Central Bank" />
+            <img src={Yesbank} alt="Yes Bank" />
+            <img src={Indusindbank} alt="Indusind Bank" />
+            <img src={RBLbank} alt="RBL Bank" />
+            <img src={Federalbank} alt="Federal bank logo" />
+            <img src={Hdfcbank} alt="Hdfc Bank" />
+            <img src={Kotakmahindrabank} alt="Kotak Mahindra Bank" />
+            <img src={Icicibank} alt="ICICI Bank" />
+            <img src={Punjabbank} alt="Punjab Bank" />
+            <img src={Canrabank} alt="Canara Bank" />
+            <img src={IDFCfirstbank} alt="IDFC First Bank" />
+            <img src={Karurvysyabank} alt="Karurvysya Bank" />
+          </div>
+        </div>
+        <div className="slider">
+          <div className="slider-track slider-track1">
+            <img src={Capitalindia} alt="Capital India" />
+            <img src={SBFChfl} alt="Sbfc Hfl" />
+            <img src={Equitas} alt="Equitas" />
+            <img src={Tatahfl} alt="Tata Hfl" />
+            <img src={Ummeedhfl} alt="Ummeed HFL" />
+            <img src={Tyger} alt="Tyger" />
+            <img src={Grihum} alt="Grihum" />
+            <img src={Hdbfinancial} alt="HDB Financial" />
+            <img src={Hindujahousingfinance} alt="Hinduja Housing Finance" />
+            <img src={Hiranandanifinancial} alt="Hiranandani Financial" />
+          </div>
+        </div>
+        <div className="slider">
+          <div className="slider-track">
+            <img src={Fivestar} alt="Five Star" />
+            <img src={Homefirst} alt="Home First" />
+            <img src={Prayaancapital} alt="Prayaan Capital" />
+            <img src={Altum} alt="Altum" />
+            <img src={Lichfl} alt="LIC HFL" />
+            <img src={Mahendra} alt="Mahendra HFL" />
+            <img src={Muthootfinance} alt="Muthoot Finance" />
+            <img src={Nidohfl} alt="Nido HFL" />
+            <img src={Nivara} alt="Nivara" />
+            <img src={Northernarchfl} alt="Northern Arc HFL" />
+            <img src={Piramalhfl} alt="Piramal HFL" />
+          </div>
+        </div>
+        <div className="slider">
+          <div className="slider-track slider-track1">
+            <img src={Pnbhfl} alt="PNB HFL" />
+            <img src={Shubham} alt="Shubham" />
+            <img src={Smfg} alt="SMFG" />
+            <img src={Sundharam} alt="Sundaram" />
+            <img src={Centrumhfl} alt="Centrum HFL" />
+            <img src={Indostar} alt="Indostar" />
+            <img src={Indiabullshfl} alt="Indiabulls HFL" />
+            <img src={Icicihfc} alt="ICICI HFC" />
+            <img src={Wonderhfl} alt="Wonder HFL" />
+            <img src={HeroHousingFinance} alt="Hero Housing Finance" />
+          </div>
+        </div>
+        <div className="slider">
+          <div className="slider-track">
+            <img src={Cholahfl} alt="Chola HFL" />
+            <img src={Shriramhfl} alt="Shriram HFL" />
+            <img src={Adanilogo} alt="Adani HFL" />
+            <img src={Incredfinance} alt="Incred Finance" />
             <img src={Aditybirlahfl} alt="Aditya Birla HFL" />
             <img src={Altumcredo} alt="Altum-Credo" />
-            <img src={Avomhfl} alt="Avom Hfl" />
+            <img src={Avomhfl} alt="Avom HFL" />
             <img src={Badradri} alt="Badradri" />
             <img src={Bajaj} alt="Bajaj" />
             <img src={Canfinhome} alt="Can Fin Homes Ltd" />
-            <img src={Canrabank} alt="Canra Bank" />
+            <img src={AdharHouse} alt="Adhar House" />
+          </div>
+        </div>
+
+
+        {/* <div className="slider">
+          <div className="slider-track slider-track1">
+            <img src={Dcbbank} alt="Dcb Bank" />
             <img src={Capitalindia} alt="Capital India" />
             <img src={Centralbank} alt="Central Bank" />
-            <img src={AdharHouse} alt="Adhar House" />
+            <img src={Yesbank} alt="Yes Bank" />
+            <img src={SBFChfl} alt="Sbfc hfl" />
+            <img src={Equitas} alt="Equitas" />
+            <img src={Indusindbank} alt="Indusind Bank" />
+            <img src={RBLbank} alt="RBL Bank" />
+            <img src={Tatahfl} alt="Tata Hfl" />
+            <img src={Ummeedhfl} alt="ummeed hfl" />
+            <img src={Tyger} alt="Tyger" />
           </div>
         </div>
         <div className="slider">
@@ -169,17 +246,17 @@ const Home = () => {
             <img src={Hindujahousingfinance} alt="Hinduja Housing Finance" />
             <img src={Hiranandanifinancial} alt="Hiranandani Financial" />
             <img src={Homefirst} alt="Home First" />
-            <img src={HeroHousingFinance} alt="Hero Housing Finance" />
+            <img src={Kotakmahindrabank} alt="Kotak Mahindra Bank" />
             <img src={Icicibank} alt="ICICI Bank" />
             <img src={Punjabbank} alt="Punjob bank" />
             <img src={Prayaancapital} alt="Prayaan Capital" />
+            <img src={Canrabank} alt="Canra Bank" />
             <img src={Altum} alt="Altum" />
           </div>
         </div>
         <div className="slider">
           <div className="slider-track">
             <img src={Karurvysyabank} alt="Karurvysya Bank" />
-            <img src={Kotakmahindrabank} alt="Kotak Mahindra Bank" />
             <img src={Lichfl} alt="Lic hfl" />
             <img src={Mahendra} alt="Mahendra HFL" />
             <img src={Muthootfinance} alt="Muthoot finance" />
@@ -188,38 +265,37 @@ const Home = () => {
             <img src={Northernarchfl} alt="Northern Arc Hfl" />
             <img src={Piramalhfl} alt="Piramal Hfl" />
             <img src={Pnbhfl} alt="Pnb hfl" />
-            <img src={PNBHomeFinane} alt="PNB Home Finane" />
-          </div>
-        </div>
-        <div className="slider">
-          <div className="slider-track slider-track1">
-            <img src={Dcbbank} alt="Dcb Bank" />
-            <img src={SBFChfl} alt="Sbfc hfl" />
-            <img src={Equitas} alt="Equitas" />
-            <img src={Indusindbank} alt="Indusind Bank" />
-            <img src={Shriramhfl} alt="Shriram hfl" />
             <img src={Shubham} alt="shubham" />
             <img src={Smfg} alt="Smfg" />
             <img src={Sundharam} alt="sundharam" />
-            <img src={RBLbank} alt="RBL Bank" />
-            <img src={Tatahfl} alt="Tata Hfl" />
-            <img src={Ummeedhfl} alt="ummeed hfl" />
-            <img src={Tyger} alt="Tyger" />
           </div>
         </div>
         <div className="slider">
           <div className="slider-track">
             <img src={Centrumhfl} alt="Centrum hfl" />
             <img src={Cholahfl} alt="Chola hfl" />
-            <img src={Yesbank} alt="Yes Bank" />
             <img src={Indostar} alt="Indostar" />
-            <img src={Incredfinance} alt="Incred Finance" />
             <img src={Indiabullshfl} alt="Indiabulls Hfl" />
             <img src={Icicihfc} alt="Icici hfc" />
             <img src={IDFCfirstbank} alt="IDFC First Bank" />
             <img src={Wonderhfl} alt="Wonder Hlf" />
           </div>
         </div>
+        <div className="slider">
+          <div className="slider-track">
+            <img src={HeroHousingFinance} alt="Hero Housing Finance" />
+            <img src={Shriramhfl} alt="Shriram hfl" />
+            <img src={Adanilogo} alt="Adani HFL logo" />
+            <img src={Incredfinance} alt="Incred Finance" />
+            <img src={Aditybirlahfl} alt="Aditya Birla HFL" />
+            <img src={Altumcredo} alt="Altum-Credo" />
+            <img src={Avomhfl} alt="Avom Hfl" />
+            <img src={Badradri} alt="Badradri" />
+            <img src={Bajaj} alt="Bajaj" />
+            <img src={Canfinhome} alt="Can Fin Homes Ltd" />
+            <img src={AdharHouse} alt="Adhar House" />
+          </div>
+        </div> */}
         <div className="additional-info">
             <h3 className="title">Why <span className="company-name">SCM LAW FIRM</span> Stands Out</h3>
             <p> <b>Legacy of Success: </b> A proven track record of winning cases and achieving favorable outcomes</p>
