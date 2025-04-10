@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <h4>Contact Us</h4>
-          <p><b>Address:</b>  H.No 2-8-219/3, Flat No 303, Sree Sai Avenue, Beside R&B Guest House, Mukarampura, Karimnagar, Telangana 505001</p>
+          <p><b>Address:</b>  H.No 2-8-219/3, Flat No 303, <br/> Sree Sai Avenue, Beside R&B Guest House, Mukarampura, Karimnagar, Telangana 505001</p>
           <p><b>Phone:</b> <a href="https://wa.me/9666077777" target="_blank" rel="noreferrer">+91 9666077777</a>,  <a href="https://wa.me/7799669999" target="_blank" rel="noreferrer">+91 7799669999</a></p>
           <p><b>Email:</b> <a href="mailto:scmlawfirm@gmail.com">scmlawfirm@gmail.com</a>, <a href="mailto:sanachandramohan@gmail.com">sanachandramohan@gmail.com</a></p>
           <div className="social-icons">
